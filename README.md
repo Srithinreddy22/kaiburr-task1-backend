@@ -97,7 +97,7 @@ server.port=8080
 * Returns all stored tasks.
 
 📸 *Screenshot Placeholder:*
-`![GET all tasks](screenshots/get_all_tasks.png)`
+`![GET all tasks](https://github.com/Srithinreddy22/kaiburr-task1-backend/blob/main/Screenshot%202025-10-20%20222459.png)`
 
 ---
 
