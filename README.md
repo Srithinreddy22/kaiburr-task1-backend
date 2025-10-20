@@ -211,7 +211,7 @@ server.port=8080
 
 ---
 
-## 🧾 Example Commands (cURL)
+##  Example Commands (cURL)
 
 ```bash
 # Get all tasks
