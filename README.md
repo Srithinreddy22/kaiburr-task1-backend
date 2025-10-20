@@ -96,8 +96,9 @@ server.port=8080
 
 * Returns all stored tasks.
 
-📸 *Screenshot Placeholder:*
-`![GET all tasks](https://github.com/Srithinreddy22/kaiburr-task1-backend/blob/main/Screenshot%202025-10-20%20222459.png)`
+
+![GET all tasks](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/getall.png)
+
 
 ---
 
@@ -107,8 +108,13 @@ server.port=8080
 
 * Returns a single task or 404 if not found.
 
-📸 *Screenshot Placeholder:*
-`![GET task by ID](screenshots/get_task_by_id.png)`
+
+![GET task by ID](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/get%20by%20id.png)
+
+
+
+![GET task by ID](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/404%20not%20found.png)
+
 
 ---
 
@@ -119,8 +125,9 @@ server.port=8080
 * Accepts JSON body representing a task.
 * Validates the command to prevent unsafe shell operations.
 
-📸 *Screenshot Placeholder:*
-`![PUT task](screenshots/put_task.png)`
+
+![PUT task](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/post.png)
+
 
 ---
 
@@ -130,8 +137,9 @@ server.port=8080
 
 * Deletes the task with the given ID.
 
-📸 *Screenshot Placeholder:*
-`![DELETE task](screenshots/delete_task.png)`
+
+![DELETE task](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/Delete.png)
+
 
 ---
 
@@ -142,8 +150,8 @@ server.port=8080
 * Returns all tasks where the name contains the given string.
 * Returns 404 if none found.
 
-📸 *Screenshot Placeholder:*
-`![Find task by name](screenshots/find_task_by_name.png)`
+
+![Find task by name](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/Search.png)
 
 ---
 
@@ -155,7 +163,8 @@ server.port=8080
 * Saves a new TaskExecution object (with start/end time and output).
 
 📸 *Screenshot Placeholder:*
-`![Execute task](screenshots/execute_task.png)`
+![Execute task](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/Execute.png)
+
 
 ---
 
