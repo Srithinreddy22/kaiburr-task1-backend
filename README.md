@@ -1,11 +1,11 @@
-# 🧩 Kaiburr Task Management REST API
+#  Kaiburr Task Management REST API
 
 This project is a **Java Spring Boot** backend application that provides a **REST API** to manage and execute shell-based tasks.  
 Each task represents a shell command that can be executed, tracked, and stored along with its execution history in a **MongoDB** database.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Create, view, delete, and execute shell-based **Tasks**
 - Each task has multiple **TaskExecutions** (command runs)
@@ -15,7 +15,7 @@ Each task represents a shell command that can be executed, tracked, and stored a
 
 ---
 
-## 🧱 Technologies Used
+##  Technologies Used
 
 | Component | Technology |
 |------------|-------------|
@@ -28,7 +28,7 @@ Each task represents a shell command that can be executed, tracked, and stored a
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -47,7 +47,7 @@ src/
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Update the `application.properties` file with your MongoDB details:
 
@@ -58,7 +58,7 @@ server.port=8080
 
 ---
 
-## 🧠 Data Model
+##  Data Model
 
 ### Task
 
@@ -88,9 +88,9 @@ server.port=8080
 
 ---
 
-## 🧩 REST API Endpoints
+##  REST API Endpoints
 
-### 1️⃣ **Get all tasks**
+###  **Get all tasks**
 
 **`GET /tasks`**
 
@@ -102,7 +102,7 @@ server.port=8080
 
 ---
 
-### 2️⃣ **Get task by ID**
+###  **Get task by ID**
 
 **`GET /tasks/{id}`**
 
@@ -118,7 +118,7 @@ server.port=8080
 
 ---
 
-### 3️⃣ **Create or update a task**
+###  **Create or update a task**
 
 **`PUT /tasks`**
 
@@ -131,7 +131,7 @@ server.port=8080
 
 ---
 
-### 4️⃣ **Delete a task**
+###  **Delete a task**
 
 **`DELETE /tasks/{id}`**
 
@@ -143,7 +143,7 @@ server.port=8080
 
 ---
 
-### 5️⃣ **Find task by name**
+###  **Find task by name**
 
 **`GET /tasks/find?name={query}`**
 
@@ -153,22 +153,24 @@ server.port=8080
 
 ![Find task by name](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/Search.png)
 
+![Find task by name](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/404%20not%20found.png)
+
 ---
 
-### 6️⃣ **Execute a task command**
+###  **Execute a task command**
 
 **`PUT /tasks/{id}/execute`**
 
 * Executes the shell command associated with the task.
 * Saves a new TaskExecution object (with start/end time and output).
 
-📸 *Screenshot Placeholder:*
+
 ![Execute task](https://raw.githubusercontent.com/Srithinreddy22/kaiburr-task1-backend/main/Execute.png)
 
 
 ---
 
-## 🧪 Example Request Body (for PUT /tasks)
+##  Example Request Body (for PUT /tasks)
 
 ```json
 {
@@ -181,7 +183,7 @@ server.port=8080
 
 ---
 
-## 🧰 Run Locally
+##  Run Locally
 
 1. **Clone the repository**
 
@@ -205,7 +207,7 @@ server.port=8080
 4. **Test the endpoints**
 
    * Using **Postman**, **cURL**, or your browser at
-     👉 `http://localhost:8080/tasks`
+      `http://localhost:8080/tasks`
 
 ---
 
